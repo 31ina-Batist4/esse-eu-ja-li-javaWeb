@@ -1,0 +1,38 @@
+INSERT INTO tb_trophy(name) VALUES ('Ficcao Cientifica');
+INSERT INTO tb_trophy(name) VALUES ('Romance');
+INSERT INTO tb_trophy(name) VALUES ('Auto Ajuda');
+INSERT INTO tb_trophy(name) VALUES ('Biografia');
+
+INSERT INTO tb_user(name, email, points, trophy_id) VALUES ('Joao da Silva', 'joaosilva@gmail.com',23, 1);
+INSERT INTO tb_user(name, email, points, trophy_id) VALUES ('Maria da Silva', 'mariasilva@gmail.com',3);
+INSERT INTO tb_user(name, email, points, trophy_id) VALUES ('Gustavo Henrique', 'gustavo@gmail.com',4);
+INSERT INTO tb_user(name, email, points, trophy_id) VALUES ('Elina Batista', 'elina@gmail.com',19,2);
+INSERT INTO tb_user(name, email, points, trophy_id) VALUES ('Flavio Pedro', 'flavio@gmail.com',48,4);
+INSERT INTO tb_user(name, email, points, trophy_id) VALUES ('Ester Marina', 'marina@gmail.com',33,3);
+INSERT INTO tb_user(name, email, points, trophy_id) VALUES ('Joquebede Amarrua', 'joque@gmail.com',23,2);
+INSERT INTO tb_user(name, email, points, trophy_id) VALUES ('Serafina Perna Fina', 'serafa@gmail.com',27,1);
+INSERT INTO tb_user(name, email, points, trophy_id) VALUES ('Josenilson Cleison', 'cleison@gmail.com',41,3);
+INSERT INTO tb_user(name, email, points, trophy_id) VALUES ('Guarnildo', 'guarna@gmail.com',44,2);
+INSERT INTO tb_user(name, email, points, trophy_id) VALUES ('Joao Vinicius', 'vini@gmail.com',56,4);
+INSERT INTO tb_user(name, email, points, trophy_id) VALUES ('Vladimir', 'vladi@gmail.com',62,2);
+
+INSERT INTO tb_book(title, style, pages, author, points) VALUES ('Os segredos da mente milionaria', 'Auto Ajuda', 176, 'T.Harv Eker',2);
+INSERT INTO tb_book(title, style, pages, author, points) VALUES ('Hábitos atômicos', 'Auto Ajuda', 320, 'James Clear',4);
+INSERT INTO tb_book(title, style, pages, author, points) VALUES ('O poder do hábito', 'Auto Ajuda', 408, 'Charles Duhigg',5);
+INSERT INTO tb_book(title, style, pages, author, points) VALUES ('A psicologia financeira', 'Auto Ajuda', 304, 'Morgan Housel',4);
+INSERT INTO tb_book(title, style, pages, author, points) VALUES ('Os segredos da mente milionaria', 'Auto Ajuda', 304, 'Morgan Housel',4);
+INSERT INTO tb_book(title, style, pages, author, points) VALUES ('Imperfeitos', 'Romance', 256, 'Christina Lauren',3);
+INSERT INTO tb_book(title, style, pages, author, points) VALUES ('É Assim que Acaba', 'Romance', 368, 'Colleen Hoover', 4);
+INSERT INTO tb_book(title, style, pages, author, points) VALUES ('É assim que começa', 'Romance', 344, 'Colleen Hoover',4);
+INSERT INTO tb_book(title, style, pages, author, points) VALUES ('Todas as suas (im)perfeições ', 'Romance', 304, 'Colleen Hoover', 4);
+INSERT INTO tb_book(title, style, pages, author, points) VALUES ('Amor, teoricamente ', 'Romance', 453, 'Ali Hazelwood', 5);
+INSERT INTO tb_book(title, style, pages, author, points) VALUES ('O diário de Anne Frank', 'Biografia', 224, 'Anne Frank',3);
+INSERT INTO tb_book(title, style, pages, author, points) VALUES ('O que sobra', 'Biografia', 512, 'Príncipe Harry',6);
+INSERT INTO tb_book(title, style, pages, author, points) VALUES ('Em busca de mim', 'Biografia', 266, 'Viola Davis',3);
+INSERT INTO tb_book(title, style, pages, author, points) VALUES ('Uma terra prometida', 'Biografia', 764, 'Barack Obama', 8);
+INSERT INTO tb_book(title, style, pages, author, points) VALUES ('Nunca deixe de tentar', 'Biografia', 80, 'Michael Jordan',1);
+INSERT INTO tb_book(title, style, pages, author, points) VALUES ('Interestelar', 'Ficcao Cientifica', 279, 'Jonathan Nolan',3);
+INSERT INTO tb_book(title, style, pages, author, points) VALUES ('Duna', 'Ficcao Cientifica', 680, 'Frank Herbert',7);
+INSERT INTO tb_book(title, style, pages, author, points) VALUES ('O guia do mochileiro das galáxias', 'Ficcao Cientifica', 320, 'Douglas Adamss', 4);
+INSERT INTO tb_book(title, style, pages, author, points) VALUES ('A ilha misteriosa', 'Ficcao Cientifica', 416, 'Júlio Verne', 5);
+INSERT INTO tb_book(title, style, pages, author, points) VALUES ('Vinte mil léguas submarinas', 'Ficcao Cientifica', 368, 'Júlio Verne', 4);
